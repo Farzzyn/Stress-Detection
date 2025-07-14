@@ -1,15 +1,5 @@
 
 import streamlit as st
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #ADD8E6; /* Light blue background */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 import pickle
 
 # Load the trained vectorizer
@@ -24,6 +14,16 @@ with open("model.pkl", "rb") as f:
 st.set_page_config(page_title="Stress Detection", layout="centered")
 
 def main():
+    st.markdown(
+    """
+    <style>
+    body {
+        background-color: #ADD8E6; /* Light blue background */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
     st.title("🧠 Stress Detection")
 
     # Input box
