@@ -6,7 +6,7 @@ from sklearn.naive_bayes import BernoulliNB
 st.set_page_config(page_title="Text Classifier", layout="centered")
 
 def main():
-    st.title("Stress Detection")
+    st.title("🧠 Stress Detection")
     
     # Text input
     user_input = st.text_area("Enter your text:", "")
