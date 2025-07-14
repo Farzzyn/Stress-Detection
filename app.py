@@ -32,5 +32,5 @@ def main():
         else:
             st.info("Please enter some text")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
