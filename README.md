@@ -1,7 +1,8 @@
 🧠 Stress Detection Using Machine Learning
 ------------------------------------------------------
 This project is a simple machine learning-based application designed to detect stress levels in individuals based on physiological or behavioral data.
-🫱 https://stress-detection-pwbvt39eylipgakzt7wxcz.streamlit.app/
+--------------------------------------------------------------------
+app link :🫱 https://stress-detection-pwbvt39eylipgakzt7wxcz.streamlit.app/
 
 
 📄 Project Overview
